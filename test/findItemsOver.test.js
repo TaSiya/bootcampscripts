@@ -15,10 +15,10 @@ let results = [
 describe('Find the items over given threshold ', function(){
 
    it('checks if the given list objects are over given threshold ', function(){
-      assert.deepEqual(findItemsOver20(itemList,5),results);
+      assert.deepEqual(findItemsOver(itemList,5),results);
    });
 
    it('checks if the output is an Array', function(){
-      assert.isArray(findItemsOver20(itemList,2), 'is a array');
+      assert.isArray(findItemsOver(itemList,2), 'is a array');
    });
 });

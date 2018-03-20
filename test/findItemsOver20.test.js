@@ -18,6 +18,6 @@ describe('Find the items over 20', function(){
    });
 
    it('checks if the output is an Array', function(){
-      assert.isArray(findItemsOver20(itemList), 'is a object');
+      assert.isArray(findItemsOver20(itemList), 'is a array');
    });
 });
