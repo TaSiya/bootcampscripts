@@ -1,5 +1,5 @@
 
-describe('count the number of registration numbers', function(){
+describe('Count registration numbers in a array', function(){
 
    it('checks if they are 3', function(){
 

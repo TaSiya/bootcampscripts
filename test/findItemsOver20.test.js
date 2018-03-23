@@ -11,13 +11,13 @@ let results = [
 {name : 'bananas', qty : 27},
 ];
 
-describe('Find the items over 20', function(){
+describe('Find the items with quatity over 20', function(){
 
-   it('checks if the given list objects are over 20 ', function(){
+   it('checks if the quantity is over 20', function(){
       assert.deepEqual(findItemsOver20(itemList),results);
    });
 
    it('checks if the output is an Array', function(){
-      assert.isArray(findItemsOver20(itemList), 'is a array');
+      assert.isArray(findItemsOver20(itemList),);
    });
 });

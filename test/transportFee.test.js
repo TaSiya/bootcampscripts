@@ -1,15 +1,15 @@
 
-describe('Checks if the user have enough money for transport', function(){
+describe('transport fee', function(){
 
-   it('checks the money for morning', function(){
+   it('For morning', function(){
       assert.equal(transportFee('morning'), 'R20')
    });
 
-   it('checks the money for afternoon', function(){
+   it('For afternoon', function(){
       assert.equal(transportFee('afternoon'), 'R10')
    });
 
-   it('checks the money for nighshift', function(){
+   it('For nighshift', function(){
       assert.equal(transportFee('nighshift'), 'free')
    });
 

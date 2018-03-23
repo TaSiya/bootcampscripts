@@ -11,7 +11,7 @@ let salesDate =[
 
 describe('Most Profitable Department', function(){
 
-   it('checks exptected output', function(){
+   it('checks profitable department', function(){
       assert.deepEqual(mostProfitableDepartment(salesDate),'hardware')
    });
 

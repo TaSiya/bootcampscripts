@@ -1,11 +1,11 @@
 
-describe('Checks if a day is a weekday', function(){
+describe('Is it a weekday', function(){
 
-   it('is it weekday', function(){
+   it('check for a weekday', function(){
       assert.equal(isWeekday('saturday'),false);
    });
 
    it('check the type', function(){
-      assert.equal(isWeekday('Monday'), true);
+      assert.typeOf(isWeekday('Monday'), 'boolean');
    });
 });
